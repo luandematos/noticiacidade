@@ -1,0 +1,271 @@
+/*Limpando configurações padrões dos navegadores*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Determinando fonte para o projeto*/
+body{
+	background: url(img/fundo.png) repeat-x;
+	font-family: "Trebouchet MS", Helvetica, sans-serif;
+}
+
+body.fixo #menu a#home,
+body.brasil #menu a#brasil,
+body.inter #menu a#internacional,
+body.eco #menu a#economia,
+body.foto #menu a#fotos{
+	color: #fff;
+	background: #b10736;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	margin-right: 20px;
+	background: #294c71;
+	color: #fff;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 4px;
+}
+
+h3{
+	background: #8e052b;
+	color: #fff;
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	padding: 3px;
+	width: 65%;
+	text-transform: uppercase;
+}
+
+p{
+	font-size: 0.8em;
+}
+
+h4{
+	font-size: 0.7em;
+	color: #00bfff;
+	padding-top: 7px;
+	text-transform: uppercase;
+}
+
+#principal{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#cabecalho{
+	width: 800px;
+	padding-top: 20px;
+}
+
+img.direita{
+	float: right;
+}
+
+#menu{
+	margin-top: 10px;
+}
+
+#menu ul{
+	background: #8e052b;
+	float: left;
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu a{
+	float: left;
+	display: block;
+	background: url(img/divisor.png) repeat-y center left;
+	padding: 0.8em 1em;
+	color: #fff;
+}
+
+#menu a:hover{
+	color:#000;
+}
+
+#menu ul .divisor a{
+	background: none;
+}
+
+.menu-lateral{
+	margin-top: 50px;
+	float: left;
+	clear: both;
+	width: 180px;
+	background: #f3f3f3 url(img/fundo-caixa.png);
+}
+
+.menu-lateral h2{
+	width: 95.5%;	
+}
+.menu-lateral ul li{
+	margin-top: 7px;
+	padding: 5px;
+	display: block;
+	line-height: 20px;
+}
+
+.menu-lateral a{
+	color:#000;
+}
+
+.menu-lateral ul a:hover{
+	color: #a1a1a1;
+	background: #f9f9f9 url(img/marcador.png) no-repeat left center;
+	padding-left: 20px;
+}
+.menu-lateral form{
+	margin-top: -40px;
+	text-shadow: "Digite seu e-mail";
+}
+
+.menu-lateral button{
+	margin-top: 8px;
+	color: #fff;
+	background: #8e052b;
+	padding: 8px;
+	border: none;
+}
+
+#conteudo{
+	margin-top: -406px;
+	width: 720px;
+	float: right;
+}
+
+#conteudo-coluna{
+	width: 720px;
+	float: right;
+	margin-top: 50px;
+}
+
+#conteudo-coluna-foto{
+	width: 920px;
+}
+
+#rodape{
+	clear: both;
+	padding-top: 20px;
+}
+
+#rodape h3{
+	width: 100%;
+	background: #294c71;
+	text-align: center;
+	padding: 10px;
+}
+
+.entrevista{
+	width: 340px;
+	float: left;
+}
+
+.entrevista img{
+	width: 320px;
+}
+
+.entrevista a{
+	text-decoration:underline;
+	color: #8e052b;
+	font-size: 0.9em;
+}
+
+.noticias{
+	clear: both;
+	width: 720px;
+}
+
+.noticias h2{
+	margin-top: 10px;
+	padding:0;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 0px;
+	padding-left: 4px;
+	width: 320px;
+	float: left;
+}
+
+.noticiasd{
+	margin-top: 10px;
+	width: 350px;
+	margin-right: 22px;
+	padding: 0;
+	float: right;
+}
+
+.noticias ul li{
+	float: left;
+	margin-top: 15px;
+}
+
+.noticias img{
+	width: 100px;
+	padding-top: 8px;
+	padding-right: 5px;
+	float: left;
+}
+
+.noticias p{
+	padding: 5px;
+	text-align: justify;
+	width: 335px;
+}
+
+.entrevista-brasil{
+	width: 520px;
+	margin-top: -456px;
+}
+
+.noticias-brasil{
+	width: 520px;
+}
+
+.noticias-brasil ul li{
+	float: left;
+}
+
+.noticias-brasil h2{
+	width: 100%;
+	margin-top: 15px;
+}
+
+.noticias-brasil img{
+	width: 100px;
+	padding-top: 8px;
+	padding-right: 5px;
+	float: left;
+}
+
+.entrevista-foto{
+	margin-top: 160px;
+}
+
+.entrevista-foto img{
+	width: 100%;
+	margin-top: 20px;
+
+}
+
+.entrevista-foto h2{
+	width: 99.2%;
+}
+
+
